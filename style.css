@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    /* background-image: url(/https://repository-images.githubusercontent.com/361033992/6ad7e080-ca27-11eb-933e-a5d251bd8096); */
+    background-image: url(https://i.pinimg.com/originals/cb/fb/56/cbfb56fb71b2500af6f0b2e568a2a77f.jpg);
+}
+
+img {
+    width: 96px;
+    height: 96px;
+}
+
+.div-creator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+    margin: 15px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid red 15px;
+    padding: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18);
+    gap: 14px;
+}
+.card .nombre{
+    font-weight: 900;
+    font-size: 32px;
+}
+.card .hp{
+    font-weight: 400;
+    font-size: 24px;
+}
+.card .weight{
+    font-weight: 400;
+    font-size: 16px;
+}
